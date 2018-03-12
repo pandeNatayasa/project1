@@ -1,0 +1,146 @@
+.label-font{
+  color: #222c38;
+}
+
+.margin{
+	padding-left: 320px;
+}
+
+.container-main{
+	margin: 0 auto;
+	padding-left: 300px;
+	max-width: 1280px;
+	width: 90%; 
+}
+
+.justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.active-li{
+  background-color:#477ab9;
+}
+
+.side-nav li > a:hover {
+  background-color: #477ab9;
+}
+
+.side-nav-background{
+  background-color: #222c38;
+}
+
+.nav-background{
+  background-color: #e0e0e0;
+}
+
+.header-color-text{
+  color: #222c38;
+}
+
+.bold > a {
+  font-weight: bold;
+}
+
+.form-background{
+  background-color: #ffffff;
+}
+
+.divider-form {
+  height: 1px;
+  overflow: hidden;
+  background-color: #222c38;
+}
+
+pre{font-family: roboto;}
+
+ul.side-nav li.user-details {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 15px;
+  padding: 10px 0 0 10px;
+}
+
+ul.side-nav li.user-details .circle {
+  height: 64px;
+  width: 64px
+}
+
+ul.side-nav li.user-details #profile-dropdown a {
+  padding: 8px 15px;
+}
+
+ul.side-nav .profile-btn {
+  margin: 0;
+  text-transform: capitalize;
+  padding: 0;
+  text-shadow: 1px 1px 1px #444;
+  font-size: 15px;
+}
+
+.side-nav .user-profile,
+.side-nav .userProfile {
+  position: relative;
+  padding: 10px 0 0 10px;
+  margin-bottom: 0px;
+}
+
+.side-nav .user-profile > a,
+.side-nav .userProfile > a {
+  height: auto;
+  padding: 0;
+}
+
+.side-nav .user-profile .circle,
+.side-nav .userProfile .circle {
+  height: 64px;
+  width: 64px;
+}
+
+.side-nav .user-profile .name,
+.side-nav .user-profile .email,
+.side-nav .userProfile .name,
+.side-nav .userProfile .email {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.side-nav .user-profile .name,
+.side-nav .userProfile .name {
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.side-nav .user-profile .email,
+.side-nav .userProfile .email {
+  padding-bottom: 0px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .margin-on-small-only, .margin-on-small-and-down {
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .margin-on-med-and-down {
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .padding-on-small-only, .padding-on-small-and-down {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .padding-on-med-and-down {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
